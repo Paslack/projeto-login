@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*
+    [Breakpoints Comuns]
+
+    *Extra pequeno (XS)*
+    Tamanho da tela: até 575px
+    Dispositivos: Smartphones (modo retrato)
+
+    *Pequeno (SM)*
+    Tamanho da tela: 576px a 767px
+    Dispositivos: Smartphones (modo paisagem)
+
+    *Médio (MD)*
+    Tamanho da tela: 768px a 991px
+    Dispositivos: Tablets (modo retrato)
+
+    *Grande (LG)*
+    Tamanho da tela: 992px a 1199px
+    Dispositivos: Tablets (modo paisagem), laptops pequenos
+
+    *Extra grande (XL)*
+    Tamanho da tela: 1200px a 1399px
+    Dispositivos: Laptops maiores, monitores de desktop
+
+    *Extra extra grande (XXL)*
+    Tamanho da tela: 1400px ou mais
+    Dispositivos: Monitores de alta resolução, monitores 4K
+*/
+
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-image: linear-gradient(#232526, #414345);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+    
+    div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    div#formulario {
+        text-align: center;
+        height: 50%;
+    }
+}
+  
+/* Telas Grandes */
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(#232526, #414345);
+    }
+
+    section#login {
+        width: 990px;
+    }
+    
+    div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    div#formulario {
+        text-align: center;
+        height: 50%;
+    }   
+}

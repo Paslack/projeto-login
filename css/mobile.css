@@ -6,7 +6,6 @@
     Paleta de cores
     cor1: #232526
     cor2: #414345
-    cor3: #302b63
 */
 
 /* Config Mobile First */
@@ -19,7 +18,7 @@
 }
 
 body {
-    background-color: #232526;
+    background-color: #414345;
     width: 100vw;
     height: 100vh;
 }
@@ -36,11 +35,12 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: width 0.3s, height 0.3s;
 
-    background-color: aliceblue;
+    background-color: #232526;
     width: 250px;
-    height: 560px;
-    border-radius: 20px;
+    height: 575px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -49,12 +49,13 @@ div#imagem {
     background-image: url(../imagens/wallpaper-login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
+    background-position: bottom center;
+    height: 250px;
 }
 
 div#formulario {
     display: block;
-    background-color: #302b63;
+    text-align: center;
+    color: #f0f8ff;
     padding: 10px;
 }
