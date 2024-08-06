@@ -28,7 +28,6 @@
     Dispositivos: Monitores de alta resolução, monitores 4K
 */
 
-
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     body {
@@ -37,6 +36,7 @@
 
     section#login {
         width: 90vw;
+        height: 375px;
     }
     
     div#imagem {
