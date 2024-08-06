@@ -68,7 +68,11 @@
     }
 
     div#formulario {
+        display: block;
         text-align: center;
+        font-size: 1.3em;
         height: 50%;
+        color: #f0f8ff;
+        padding: 30px;
     }   
 }
