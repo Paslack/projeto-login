@@ -49,6 +49,11 @@
         text-align: center;
         height: 50%;
     }
+
+    div.botao > input {
+        width: 7%;
+        height: 25px;
+    }
 }
   
 /* Telas Grandes */
@@ -74,5 +79,10 @@
         height: 50%;
         color: #f0f8ff;
         padding: 30px;
-    }   
+    } 
+
+    div.botao > input {
+        width: 8.5%;
+        height: 25px;
+    }
 }

@@ -68,3 +68,43 @@ div#formulario > h1 {
 div#formulario > p {
     padding-bottom: 50px;
 }
+
+div.campo > input {
+    border: none;
+    background-color: #f0f8ff;
+    padding: 10px;
+    height: 25px;
+}
+
+div.botao {
+    padding: 10px;
+}
+
+div.botao > input {
+    background-color: #414345;
+    color: #f0f8ff;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    width: 20%;
+    height: 25px;
+    cursor: pointer;
+}
+
+div.botao > input:hover {
+    background-color: #f0f8ff;
+    color: #414345;
+}
+
+div.botao > a {
+    border: 1px solid #f0f8ff;
+    border-radius: 7px;
+    padding: 3px;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+div.botao > a:hover {
+    color: #414345;
+}
